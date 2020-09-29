@@ -27,7 +27,7 @@ from LabelSpaceAssignment import LabelSpaceAssignment
 logits_a = torch.randn(5,7) ## No. of instances = 5 and No. of classes = 7
 bag_label = torch.empty(1,7).random_(2) ## No. of bags = 1 and No. of classes = 7
 labelSpace = LabelSpaceAssignment(7) ## No. of classes = 7
-labels,scores,omega_indx = labelSpace.assignmentSingle(logits_a,bag_label) ## Output: labels - No. of instances = 5 and No. of classes = 7
+labels,scores,omega_indx = labelSpace.assignmentSingle(logits_a,bag_label)
 ```
 
 ### Citation:
