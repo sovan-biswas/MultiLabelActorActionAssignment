@@ -146,6 +146,9 @@ class LabelSpaceAssignment():
         ##      omega is the powerset (N_o x D)
         ##      inst_labels is the linear programming solved instance labels (N_p x D)
         ###########################################
+        
+        if dets == None:
+            self.use_detection = False
 
         num_inst = int(data.shape[0]) ### N_p
         num_class = bag_label.shape[1] ### D
