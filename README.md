@@ -16,10 +16,10 @@ This repository provides a PyTorch implementation of the actor action assignment
 
 
 ### Tested with:
-- Python >= 3.6
-- PyTorch 1.4
-- Numpy >= 1.19.0
-- Cplex >= 12.10
+- Python == 3.6
+- PyTorch == 1.4
+- Numpy == 1.19.0
+- Cplex == 12.10
 
 ### Usage Details
 ```shell
