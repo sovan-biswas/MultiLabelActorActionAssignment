@@ -143,7 +143,7 @@ class LabelSpaceAssignment():
         ##      dets: detection score for each instance (N_p x 1)
         ## Returns:
         ##      scores is the score matrix for optimization (N_o x N_p)
-        ##      omega is the powerset (N_o x D)
+        ##      omega_indx is the index of omega (N_o)
         ##      inst_labels is the linear programming solved instance labels (N_p x D)
         ###########################################
         
@@ -159,7 +159,7 @@ class LabelSpaceAssignment():
         inst_labels, omega_indx = self.solve_lp_cplex(bag_label,scores,omega)
 
         return inst_labels, scores, omega_indx
-
+    
     def locate_subset_indices(self,bag_label,omega):
         ###########################################
         ## returns the indices for the subsets in omega given the bag_label (code in numpy)
