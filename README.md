@@ -1,5 +1,5 @@
 # Discovering Multi-Label Actor-Action Association in a Weakly Supervised Setting
-This repository provides a PyTorch implementation of the actor action assignment given label logits [Discovering Multi-Label Actor-Action Association in a Weakly Supervised Setting]().
+This repository provides a PyTorch implementation of the actor action assignment given label logits [Discovering Multi-Label Actor-Action Association in a Weakly Supervised Setting](https://pages.iai.uni-bonn.de/gall_juergen/download/jgall_weakactiondetection_accv2020.pdf).
 
 ### Qualitative Results:
 
